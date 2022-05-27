@@ -1,4 +1,4 @@
-# #1589F0Fundamentos
+# 1589F0Fundamentos
 Repo de fundamentos das aulas dos stags 2022
 
 # O QUE SIGNIFICA .gitignore?
