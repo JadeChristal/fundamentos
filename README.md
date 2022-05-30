@@ -1,8 +1,8 @@
 # Fundamentos
 
-Repo de fundamentos das aulas dos stags 2022 - Atualizado Jade
+Repo de fundamentos das aulas dos stags 2022 - Atualizado Jade / Luiz Paulo
 
-# O QUE SIGNIFICA .gitignore?
+# O QUE SIGNIFICA .gitignore? Vamos explicar!
 
 .gitignore informa ao git quais arquivos (ou padrões) deve ignorar. Usado para evitar a confirmação de arquivos transitórios do diretório de trabalho que não são úteis para outros colaboradores, como produtos de compilação, arquivos temporários criados por IDEs e por aí vai... Outros detalhes nesse link: https://www.atlassian.com/br/git/tutorials/saving-changes/gitignore
 
@@ -14,3 +14,4 @@ Repo de fundamentos das aulas dos stags 2022 - Atualizado Jade
 4. O responsável pelo repositório é a única pessoa que pode excluir o repositório. Se o repositório pertencer a uma equipe, um administrador pode excluir o repositório.
 5. Um projeto de código pode consistir em vários repositórios em várias contas, mas também pode ser um repositório único de uma conta única.
 6. Cada repositório tem um limite de espaço de 2 GB, mas recomendamos manter seu repositório com no máximo 1 GB.
+7. Só pra lembrar de estudar mais...
