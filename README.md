@@ -9,4 +9,8 @@
 **git commit -m**- Cria um pacote com as modificações alteradas e atribui a esse pacote um nome e um identificador chamado hash.  
 **git push origin (nome da branch onde vc se encontra)**- Pega todas as alterações que foram devidamente commitadas e envia para o nosso repo.  
 **git status** - Mostra se há alguma modificação local e em qual branch estamos.  
-**git log** - Mostra o historico dos ultimos commits realizados no repo, mostra o nome, autor e hash do commit.
+**git log** - Mostra o historico dos ultimos commits realizados no repo, mostra o nome, autor e hash do commit.  
+**git checkout nome_da_branch** - Muda para a branch descrita.  
+**git checkout -b nome_da_branch** - Cria uma nova branch a partir da branch onde você se encontra.  
+**git rebase** - Atualiza a branch atual e coloca os seu commits no topo do historico.  
+**git merge** - Atualiza a branch atual e mantém os commits na ordem do histórico.

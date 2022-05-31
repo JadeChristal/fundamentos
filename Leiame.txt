@@ -1,9 +1,0 @@
-Introdução do GitHub
-
-Estamos realizando o treinamento no uso da ferramente GitHub.
-Inicialmente vamos aprender a utilizar um repositório.
-
-30/05/2022
-
-Luiz Paulo.
-RedSpark
