@@ -1,0 +1,31 @@
+body {
+    background-color: paleturquoise;
+    }
+
+
+h1 {                  
+    border: 5px outset blue;
+    background-color: deepskyblue;
+    text-align: center;
+    }
+
+h2 {
+    background-color: lightgrey;
+    text-align: left;
+    }
+
+a:hover {
+    background-color: chartreuse;
+    cursor: pointer;    
+}
+
+#fundoazul az {
+  background: Deepskyblue;
+  display:inline;
+}
+
+#fundoLemon le {
+  background:LemonChiffon;
+  display:inline;
+}
+
