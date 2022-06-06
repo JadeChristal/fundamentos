@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(223, 236, 214);
+  background-image: url("./foto_LP.jpg");
+  background-size: 15%;
+  background-repeat: no-repeat;
+  background-position: top right;
+    }
+
+h1 {
+  border-left: 5px solid darkblue;
+  background-color: rgb(155, 202, 240);
+  text-align: center;
+  display:inline;
+   }
+
+h2 {
+  border-left: 4px solid darkgray;
+  background-color: lightgrey;
+  text-align: center;
+  display:inline;
+   }
+
+a:hover {
+  background-color: chartreuse;
+  border: 5px solid darkgreen;
+  text-decoration: none;
+  cursor: pointer;    
+        }
+
+.fundoazul {
+  background: Deepskyblue;
+  display:inline;
+            }
+
+.fundoLemon {
+  background:LemonChiffon;
+  display:inline;
+            }
+
+.bolinha {
+  text-decoration: none;
+  font-size: 10px;
+  background-color: lightblue;
+  color: black;
+  
+  border-radius: 30%;
+  color: #333;
+  border: 5px solid darkblue;
+
+  text-align: center;
+  padding: 16px;
+  margin-top: 20px;
+  position: relative;
+          }
+
+.colunacursos {
+  columns: 100px 2;
+  width: 1000px;
+  height: 197px;
+        }
+
+.colunaperfil {
+  columns: 100px 2;
+  width: 800px;
+  height: 90px;
+        }
