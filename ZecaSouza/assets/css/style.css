@@ -2,9 +2,7 @@
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    color: #fff;    
-    background: url("../img/bg.jpg") no-repeat center center;
-    background-size: cover;
+
 }
 
 a {
@@ -13,14 +11,35 @@ a {
     transition: 0.3s;
 }
 
+ol{
+    list-style: none;
+}
+
 a:hover {
     opacity: 0.7;
+}
+
+header {
+    color: #fff;
 }
 
 .logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    width: 45px;
+    margin-top: 5px;
+}
+
+.ico {
+    width: 100px;
+    margin-top: 5px;
+}
+
+header {
+    margin-bottom: 10px;    
+    background: url("../img/bg.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 nav {
@@ -29,4 +48,79 @@ nav {
     align-items: center;
     background-color:rgba(0, 0, 0, 0.5);
     height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.center-items {
+    align-items: center;
+}
+
+#img-perfil {
+    position: relative;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    border: 15px solid transparent;
+    transition: all .3s ease-out;
+    margin-left: 45%;
+}
+
+#links {
+    margin-left: 25%;
+}
+
+#boku {
+    width: 350px;
+    margin-left: 25%;
+}
+.contaniner{
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.card{
+    display: flex;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow:0 5px 25px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.box {
+    background: rgb(255, 255, 255);
+    border: 0;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.study {
+    display: flex;
+    width: 280px;
+    height: 180px;
+    background-color: rgb(141, 250, 77);
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.top {
+    margin-top: 88px;
 }
