@@ -1,0 +1,29 @@
+body { 
+    background-color: darkgrey;
+}
+
+.hmain {
+    position: relative;
+    text-align: center;
+}
+
+.boxSM {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxKH {
+    background-color: beige;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo {
+    text-align: center;
+
+}
