@@ -1,5 +1,7 @@
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: aquamarine;
     align-items: center;
     text-align: center;
@@ -8,33 +10,54 @@ body {
 h1, h2, h3, p{
     text-align: center;
 }
-div{
-    display: flex;
-    text-decoration: none;
+
+.sobre{
+    max-height: 500px;
+    max-width: 500px;
+    position: relative;
+    border-radius: 20%;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    
 }
 
 .me{
     position: relative;
     border-radius: 20%;
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 400px;
+    max-width: 400px;
+    cursor: pointer;
 }
 
 .livre {
+    padding: 5px;
     position: relative;
     border-radius: 20%;
     max-height: 300px;
     max-width: 300px;
+    cursor: pointer;
+    display: flexbox;
 }
 .sociais{
+    padding: 5px;
     position: relative;
     border-radius: 20%;
-    max-height: 80px;
-    max-width: 80px;
-    text-decoration: none;
+    max-height: 70px;
+    max-width: 70px;
+    cursor: pointer;
+    display: flexbox;
 }
 
 li {
     list-style-type: none;
+  }
+
+  .tempo {
+      padding: 5px;
+  }
+
+  a:hover{
+      color: red;
   }
 
