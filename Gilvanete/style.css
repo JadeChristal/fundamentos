@@ -3,7 +3,38 @@ body {
     background-color: aquamarine;
     align-items: center;
     text-align: center;
+    text-decoration: none;
 }
 h1, h2, h3, p{
     text-align: center;
 }
+div{
+    display: flex;
+    text-decoration: none;
+}
+
+.me{
+    position: relative;
+    border-radius: 20%;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.livre {
+    position: relative;
+    border-radius: 20%;
+    max-height: 300px;
+    max-width: 300px;
+}
+.sociais{
+    position: relative;
+    border-radius: 20%;
+    max-height: 80px;
+    max-width: 80px;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+  }
+
