@@ -1,8 +1,11 @@
-
-body {
+*{
     margin: 0;
     padding: 0;
     border: 0;
+}
+body {
+    padding: 5px;
+    padding-left: 5px;
     background-color: rgb(190, 229, 216);
     align-items: center;
     text-align: center;
