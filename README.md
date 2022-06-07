@@ -1,4 +1,4 @@
-# Recapitulando
+# Recapitulando Git
 
 **ssh-keygen** - Cria uma chave publica de ssh, no linux ele cria a chave publica na pasta .ssh na home. A chave e criada como id_rsa.pub e é importada nas configurações da pagina do github.
 
