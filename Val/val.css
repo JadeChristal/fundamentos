@@ -1,0 +1,52 @@
+
+	body {
+	    background-color: LightPink;
+	    padding-left:250px; 
+            padding-top: 100px;
+            padding-bottom: 200px;
+            padding-right: 250px;
+		       
+			    
+		}
+		h2 {
+		    color: black;
+		    font-size: 25px;
+		    
+		}
+		    il { 
+		    color: black;
+            	    font-size: 15px;
+            	    font-family: time roman;
+		 }
+		 span {
+		    color: black;
+		    font-size: 20px;
+		    }
+		   
+		dl { 
+		  font-size: 15px;
+		  color: #0B173B;
+		  }
+		  
+		   h2:hover {
+  			background-color: pink;
+		}
+		
+		.dis {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		}  
+		.inf {
+		   display: flex;
+		    width: 300px;
+		    height: 300px;
+		    text-align: center;
+		   
+		}
+		
+		.ho:hover {
+		color: red;
+		font-size: 120%;
+
+}
