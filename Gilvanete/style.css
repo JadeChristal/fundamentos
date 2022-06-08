@@ -120,23 +120,34 @@ li:hover{
     opacity: 0,7;
 
 }
-
+img:hover{
+    background-color: rgb(48, 75, 226);
+    transition: all .5s ease-out;
+    opacity: 0,7;
+}
+/*
 img,.sociais:hover{
     background-color: rgb(146, 203, 166);
     transition: all .5s ease-out;
     opacity: 0,7;
-}
+}*/
 
 .btn{
     font-family: arial;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
-    border: none;
+    border-radius: 20px;
     padding: 10px;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgb(17, 19, 31);
+    transition: all .5s ease-out;
+    opacity: 0,7;
 }
 
 .btn-green {
@@ -144,3 +155,13 @@ img,.sociais:hover{
     color: #fff;
     box-shadow: 0 5px 0 #006000;
 }
+/*
+.s-m {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+
+
