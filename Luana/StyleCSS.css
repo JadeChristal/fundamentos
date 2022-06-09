@@ -1,0 +1,104 @@
+
+
+body { 
+    background-color: lightpink;
+}
+
+.hmain {
+    position: relative;
+    text-align: center;
+}
+
+.boxSM {
+    position: relative;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px black solid;
+}
+
+.boxKH {
+    position: relative;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px black solid;
+}
+
+.boxSocialM {
+    position: relative;
+    background-color: white;
+    height: 160px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+}
+
+.photo {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.photoBG {
+    position: absolute;
+    margin-top: 10px;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    height: 600px;
+}
+
+.divFlex {
+    display: flex;
+}
+
+.s-m {
+    text-align: center;
+}
+
+
+.s-m a {
+    text-decoration: none;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background-color: darksalmon;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+
+}
+
+.s-m a:hover {
+    background-color: red;
+}
+
+.email {
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.boxProjects {
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+
+}
