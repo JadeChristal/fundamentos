@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    position: fixed;
+    background-color: rgba(158, 204, 138, 0.54);
+    color: #fff;
+    font-family: ariel;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    padding: 5px;
+    padding-left: 5px;
+    background-color: rgb(190, 229, 216);
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.topo {
+    position: relative;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+h1, h2, h3, h4{
+    text-align: center;  
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 1.6rem;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+.sobre{
+    max-height: 500px;
+    max-width: 500px;
+    position: relative;
+    border-radius: 20%;
+    display: inline;
+    padding: 15px 15px 20px 20px;
+    text-align: center; 
+    font: 1em ariel;
+}
+
+.sobre:hover{
+    color: rgb(12, 12, 169);
+    transition: 0,5s;
+    opacity: 0,7;
+}
+
+.me{
+    position: relative;
+    border-radius: 20%;
+    max-height: 400px;
+    max-width: 400px;
+    cursor: pointer;
+    transition: 0,5s;
+    opacity: 0,7;
+}
+
+.livre {
+    padding: 5px;
+    position: relative;
+    border-radius: 20%;
+    max-height: 300px;
+    max-width: 300px;
+    cursor: pointer;
+    display: flexbox;
+}
+.sociais{
+    padding: 5px;
+    position: relative;
+    border-radius: 20%;
+    max-height: 70px;
+    max-width: 70px;
+    cursor: pointer;
+    display: flexbox;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.tempo {
+      padding: 5px;
+  }
+
+li:hover{
+      color: red;
+  }
+.tempo :hover{
+    color: blue;
+}
+.exp{
+    color: rgb(4, 42, 4);
+}
+
+.hab :hover{
+    color: brown;
+    transition: 0,5s;
+    opacity: 0,7;
+}
+
+.footer :hover{
+    color: blueviolet;
+    transition: 0,5s;
+    opacity: 0,7;
+
+}
+img:hover{
+    background-color: rgb(48, 75, 226);
+    transition: all .5s ease-out;
+    opacity: 0,7;
+}
+
+.btn{
+    font-family: arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgb(142, 61, 118);
+    transition: all .5s ease-out;
+    opacity: 0,7;
+}
+
+.btn-green {
+    background: green;
+    color: #fff;
+    box-shadow: 0 5px 0 #006000;
+}
+
+.s-m a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: #d35f54;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 20px;
+
+}
+
+.s-m a:hover{
+    background: #2c3e50;
+}
+.s-m a i{
+    transition: 00.4s all;
+}
+
+.s-m a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+}
+
+
+
