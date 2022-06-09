@@ -23,19 +23,6 @@ header {
     color: #fff;
 }
 
-.logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 45px;
-    margin-top: 5px;
-}
-
-.ico {
-    width: 100px;
-    margin-top: 5px;
-}
-
 header {
     margin-bottom: 10px;    
     background: url("../img/bg.jpg") no-repeat center center;
@@ -49,6 +36,20 @@ nav {
     background-color:rgba(0, 0, 0, 0.5);
     height: 8vh;
 }
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 45px;
+    margin-top: 5px;
+}
+
+.ico {
+    width: 100px;
+    margin-top: 5px;
+}
+
 
 .nav-list {
     list-style: none;
@@ -82,12 +83,25 @@ nav {
 
 #links {
     margin-left: 25%;
+    animation: go-back 1s infinite alternate;
 }
+
 
 #boku {
     width: 350px;
     margin-left: 25%;
 }
+
+#writer {
+    margin-left: 40%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(13) infinite alternate,
+          blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
+
 .contaniner{
     margin-left: 210px;
     margin-right: 210px;
@@ -124,14 +138,12 @@ nav {
     margin-top: 88px;
 }
 
-#writer {
-    margin-left: 40%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typewriter 3s steps(13) infinite alternate,
-          blink 800ms steps(13) infinite normal;
-    border-right: 5px solid black;
+.ext {
+    color: red;
+}
+.ext:hover{
+    font-size: 32px;
+    text-shadow: rgb(0, 0, 0);
 }
 
 @keyframes typewriter {
@@ -150,3 +162,11 @@ nav {
       border-color: transparent;
     }
   }
+  @keyframes go-back {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
