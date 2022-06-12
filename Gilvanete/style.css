@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -6,7 +6,7 @@
 
 .header {
     position: fixed;
-    background-color: rgba(158, 204, 138, 0.54);
+    background-color: rgba(204, 228, 194, 0.215);
     color: #fff;
     font-family: ariel;
     width: 100%;
@@ -14,6 +14,7 @@
     padding: 0;
     border: 0;
 }
+
 body {
     padding: 5px;
     padding-left: 5px;
@@ -22,53 +23,54 @@ body {
     text-align: center;
     text-decoration: none;
 }
+
 .topo {
     position: relative;
     padding: 15px;
     margin-top: 35px;
 }
 
-h1, h2, h3, h4{
-    text-align: center;  
+h2, h3, h4 {
+    text-align: center;
 }
 
-p{
+p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     font-size: 1.6rem;
 }
 
-img{
+img {
     width: 50%;
     height: 50%;
 }
 
-.sobre{
+.sobre {
     max-height: 500px;
     max-width: 500px;
     position: relative;
     border-radius: 20%;
     display: inline;
     padding: 15px 15px 20px 20px;
-    text-align: center; 
+    text-align: center;
     font: 1em ariel;
 }
 
-.sobre:hover{
+.sobre:hover {
     color: rgb(12, 12, 169);
-    transition: 0,5s;
-    opacity: 0,7;
+    transition: 0, 5s;
+    opacity: 0, 7;
 }
 
-.me{
+.me {
     position: relative;
     border-radius: 20%;
     max-height: 400px;
     max-width: 400px;
     cursor: pointer;
-    transition: 0,5s;
-    opacity: 0,7;
+    transition: 0, 5s;
+    opacity: 0, 7;
 }
 
 .livre {
@@ -80,7 +82,8 @@ img{
     cursor: pointer;
     display: flexbox;
 }
-.sociais{
+
+.sociais {
     padding: 5px;
     position: relative;
     border-radius: 20%;
@@ -92,41 +95,46 @@ img{
 
 li {
     list-style-type: none;
-  }
+}
 
 .tempo {
-      padding: 5px;
-  }
+    padding: 5px;
+}
 
-li:hover{
-      color: red;
-  }
-.tempo :hover{
+li:hover {
+    color: red;
+}
+
+.tempo :hover {
     color: blue;
 }
-.exp{
+
+.exp {
     color: rgb(4, 42, 4);
 }
 
-.hab :hover{
+.hab :hover {
     color: brown;
-    transition: 0,5s;
-    opacity: 0,7;
+    transition: 0, 5s;
+    opacity: 0, 7;
 }
 
-.footer :hover{
+.footer :hover {
     color: blueviolet;
-    transition: 0,5s;
-    opacity: 0,7;
+    transition: 0, 5s;
+    opacity: 0, 7;
 
 }
-img:hover{
+
+
+
+img:hover {
     background-color: rgb(48, 75, 226);
     transition: all .5s ease-out;
-    opacity: 0,7;
+    opacity: 0, 7;
 }
 
-.btn{
+.btn {
     font-family: arial;
     font-size: 14px;
     text-transform: uppercase;
@@ -138,10 +146,10 @@ img:hover{
     text-decoration: none;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(142, 61, 118);
     transition: all .5s ease-out;
-    opacity: 0,7;
+    opacity: 0, 7;
 }
 
 .btn-green {
@@ -150,7 +158,7 @@ img:hover{
     box-shadow: 0 5px 0 #006000;
 }
 
-.s-m a{
+.s-m a {
     display: inline-flex;
     width: 50px;
     height: 50px;
@@ -165,16 +173,65 @@ img:hover{
 
 }
 
-.s-m a:hover{
+.s-m a:hover {
     background: #2c3e50;
 }
-.s-m a i{
+
+.s-m a i {
     transition: 00.4s all;
 }
 
-.s-m a:hover > i{
+.s-m a:hover>i {
     transform: scale(1.6) rotate(25deg);
 }
 
+#writer {
+    margin-left: 30%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(13) infinite alternate, blink 800ms steps(13) infinite normal;
+    border-right: 5px solid rgba(91, 145, 124, 0.816);
+}
 
+#h1.center {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    position: relative;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+        blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: rgba(198, 215, 188, 0.37);
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
 
